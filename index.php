@@ -114,28 +114,28 @@
             <!-- Navbar brand -->
             <a class="navbar-brand" href="#">
                 <a class="nav-link" href=""><img src="img/qq.ico" id="img-ico">
-                </a>
+            </a>
 
-                <!-- Collapse button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
 
-                    <!-- Links -->
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SPEM</a>
-                        </li>
-                    </ul>
-                    <!-- Links -->
-                </div>
-                <!-- Collapsible content -->
+                <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SPEM</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+            </div>
+            <!-- Collapsible content -->
         </nav>
         <div class="view">
             <img src="img/E.jpg" class="img-fluid">
@@ -348,7 +348,7 @@
                                 <br>
                                 <hr>
                                 <li>
-                                    <a href="https://www.google.com.mx/maps/place/Cr%C3%A1ter+171,+Jardines+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+01900+Ciudad+de+M%C3%A9xico,+CDMX/@19.3251861,-99.2067617,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdfff1c79a6fe1:0xabe9c60f98cb1c92!8m2!3d19.3251861!4d-99.204573">
+                                    <a target="_blank" href="https://www.google.com.mx/maps/place/Cr%C3%A1ter+171,+Jardines+del+Pedregal,+%C3%81lvaro+Obreg%C3%B3n,+01900+Ciudad+de+M%C3%A9xico,+CDMX/@19.3251861,-99.2067617,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdfff1c79a6fe1:0xabe9c60f98cb1c92!8m2!3d19.3251861!4d-99.204573">
             Cráter 171, Colonia Jardines del Pedregal, C.P. 01900, Ciudad de México, Tel: (55) 1206 5090</a>
                                 </li>
                             </ul>
@@ -367,7 +367,7 @@
                             <ul class="list-unstyled text-justify">
                                 <hr>
                                 <li>
-                                    <a href="https://www.google.com.mx/maps/place/SPEM+Soluciones/@19.3670227,-99.1791,17z/data=!4m8!1m2!2m1!1s103,+San+Francisco+1838,+Acacias,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX!3m4!1s0x85d1ff1ae91f44d3:0x7ce4c18f58da7ecd!8m2!3d19.3670699!4d-99.1769605">
+                                    <a target="_blank" href="https://www.google.com.mx/maps/place/SPEM+Soluciones/@19.3670227,-99.1791,17z/data=!4m8!1m2!2m1!1s103,+San+Francisco+1838,+Acacias,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX!3m4!1s0x85d1ff1ae91f44d3:0x7ce4c18f58da7ecd!8m2!3d19.3670699!4d-99.1769605">
             San Francisco 1838, Int. 103 y 104, Colonia Actipan del Valle, C.P. 03100, Ciudad de México, Tel: (55) 7587 8220</a>
                                 </li>
                             </ul>
@@ -386,7 +386,7 @@
                             <ul class="list-unstyled text-justify">
                                 <hr>
                                 <li>
-                                    <a href="https://www.google.com/maps/place/2313+Lockhill+Selma+Rd+%23103,+San+Antonio,+TX+78231,+EE.+UU./@29.543689,-98.5317068,17z/data=!3m1!4b1!4m5!3m4!1s0x865c60f5e006429b:0xb68c781e4d803159!8m2!3d29.543689!4d-98.5295181">2313 Lockhill Selma, Suite 103, C.P. 78230, San Antonio, Texas. USA, Tel:(210) 504 4662</a>
+                                    <a href="https://www.google.com/maps/place/2313+Lockhill+Selma+Rd+%23103,+San+Antonio,+TX+78231,+EE.+UU./@29.543689,-98.5317068,17z/data=!3m1!4b1!4m5!3m4!1s0x865c60f5e006429b:0xb68c781e4d803159!8m2!3d29.543689!4d-98.5295181" target="_blank">2313 Lockhill Selma, Suite 103, C.P. 78230, San Antonio, Texas. USA, Tel:(210) 504 4662</a>
                                 </li>
                             </ul>
 
@@ -408,6 +408,7 @@
                     </li>
                 </ul>
                 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <form method="$_POST"></form>
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header text-center">
@@ -417,36 +418,41 @@
                               </button>
                             </div>
                             <div class="modal-body mx-3">
+                                <form method="POST">
                                 <div class="md-form mb-5">
                                     <i class="fas fa-user prefix grey-text"></i>
-                                    <input type="text" id="nombre" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="form34">Nombre</label>
+                                    <input type="text" id="nombre" name="nombre" class="form-control validate" placeholder="Nombre" require>
+                                    <label data-error="wrong" data-success="right" for="form34"></label>
                                 </div>
 
                                 <div class="md-form mb-5">
                                     <i class="fas fa-envelope prefix grey-text"></i>
-                                    <input type="email" id="email" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="form29">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control validate" placeholder="Correo Electronico" require>
+                                    <label data-error="wrong" data-success="right" for="form29"></label>
                                 </div>
 
                                 <div class="md-form mb-5">
                                     <i class="fas fa-tag prefix grey-text"></i>
-                                    <input type="text" id="asunto" class="form-control validate">
+                                    <input type="text" id="asunto" name="asunto" class="form-control validate" placeholder="Asunto" require>
                                     <label data-error="wrong" data-success="right" for="form32">Asunto</label>
                                 </div>
 
                                 <div class="md-form">
                                     <i class="fas fa-pencil prefix grey-text"></i>
-                                    <textarea type="text" id="mensaje" class="md-textarea form-control" rows="4"></textarea>
-                                    <label data-error="wrong" data-success="right" for="form8">Tu Mensaje</label>
+                                    <textarea type="text" id="mensaje" name="mensaje" class="md-textarea form-control" rows="4" placeholder="Tu Mensaje..."></textarea>
+                                    <label data-error="wrong" data-success="right" for="form8"></label>
                                 </div>
 
                             </div>
                             <div class="modal-footer d-flex justify-content-center">
-                                <button class="btn blue-gradient" id="submit">Enviar <i class="fas fa-paper-plane-o ml-1"></i></button>
+                                <button class="btn blue-gradient" id="submit" name="submit">Enviar <i class="fas fa-paper-plane-o ml-1"></i></button>
                             </div>
                         </div>
                     </div>
+                </form>
+                <?php
+                    include('correo.php');
+                ?>
                 </div>
 
                 <div class="text-center">
