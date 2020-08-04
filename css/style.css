@@ -24,6 +24,10 @@
     width: 250px;
     height: 100%;
     overflow-y: auto;
+    background: -webkit-linear-gradient(to left, #6ecbed, #072767);
+    background: -moz-linear-gradient(to left, #6ecbed, #072767);
+    background: -o-linear-gradient(to left, #6ecbed, #072767);
+    background: linear-gradient(to left, #6ecbed, #072767);
     background: linear-gradient(to left, #6ecbed, #072767);
     padding-top: 15px;
     transition: all 0.5s ease;
